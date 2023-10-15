@@ -1,5 +1,5 @@
 # cursos/Prometheus_Grafana 
-- Monitoreo con Prometheus, Grafana, Spring boot y Docker**
+- Monitoreo con Prometheus, Grafana, Spring boot y Docker
 	Proyecto: prometheus
 	descripcion: esto proyecto spring boot que genera metricas con actuator 
 	y prometheus lo scrapea    		
