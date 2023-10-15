@@ -1,0 +1,27 @@
+
+
+
+//ver los path de metricas
+http://localhost:8080/actuator
+
+//ver el json de metricas de actuator
+http://localhost:8080/actuator/metrics/http.server.requests
+
+//ver las metricas del cotroller 'metricas' method get
+http://localhost:8080/actuator/metrics/devs4j_adap.metrics
+http://localhost:8080/actuator/metrics/devs4j_timer.metrics
+
+
+
+//ver las metricas de prometheus 
+http://localhost:8080/actuator/prometheus
+
+//aqui se puede revisar las metricas que se van agregando
+http://localhost:8080/actuator/metrics
+
+
+//Configuracion del yaml de prometheus
+http://localhost:9090/config
+
+//NOTAS:
+- Se usa prometheus con micrometer
